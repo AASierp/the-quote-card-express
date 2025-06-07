@@ -1,0 +1,73 @@
+@import url("reset.css");
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    width: 70vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 40% -20%,rgb(198, 112, 126), purple, navy 75%);
+}
+
+.background-img{
+    background-image: url(/mock-up.jpeg);
+}
+
+
+.quote-container{
+    display: flex;
+    width: 67vw;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px white;
+}
+
+.quote-text{
+    position: relative;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 70%;
+    height: 60%;
+    text-wrap: 1;
+    color: white;
+    font-weight: bold;
+}
+
+.quote-text::before,
+.quote-text::after{
+    font-size: 6rem;
+    color: white;
+    font-family: serif;
+    position: absolute;
+}
+
+.quote-text::after{
+    content: "”";
+    bottom: -30px;
+    right: -20px;
+}
+
+.quote-text::before{
+    content: "“";
+    top: -30px;
+    left: -20px;
+}
+
+.author-text{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-top: 5px;
+}
