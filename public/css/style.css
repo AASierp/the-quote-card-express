@@ -16,7 +16,7 @@ main{
 }
 
 .background-img{
-    background-image: url("/public/img/{78BB8203-0A68-4255-83F3-4207CBA59F2B}.png");
+    background-image: url("/img/{78BB8203-0A68-4255-83F3-4207CBA59F2B}.png");
     position: fixed;
     top: 0;
     left: 0;
